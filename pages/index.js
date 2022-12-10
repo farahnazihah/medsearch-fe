@@ -15,9 +15,10 @@ export default function Home() {
           <Input
             value={queryInput}
             onChange={(e) => setQueryInput(e.target.value)}
-            placeholder="Cari..."
+            placeholder="Search keyword..."
           />
           <Button
+            w="30%"
             px="30px"
             onClick={() => {
               router.push({
@@ -26,7 +27,7 @@ export default function Home() {
               });
             }}
           >
-            Cari
+            Search
           </Button>
         </VStack>
       </Center>
