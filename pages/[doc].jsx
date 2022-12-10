@@ -3,7 +3,7 @@ import { useRouter } from "next/router";
 import { Box, Heading, Text, Flex, Button } from "@chakra-ui/react";
 import { useEffect, useState } from "react";
 
-const API_BASE_URL_DOC = "http://127.0.0.1:8000/doc/";
+const API_BASE_URL_DOC = "http://34.121.38.63:8000/doc/";
 
 export default function Home() {
   const router = useRouter();

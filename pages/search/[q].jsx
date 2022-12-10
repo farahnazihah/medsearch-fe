@@ -15,7 +15,7 @@ import {
 } from "@chakra-ui/react";
 import { useEffect, useState } from "react";
 
-const API_BASE_URL_SEARCH = "http://127.0.0.1:8000/search/";
+const API_BASE_URL_SEARCH = "http://34.121.38.63:8000/search/";
 
 export default function Home() {
   const router = useRouter();
